@@ -95,45 +95,70 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
 html {
-  background-color: #fff;
-  height: 100%;
+    background-color: salmon;
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0 2em;
+    font-size: 1em;
+    height: auto;
+    color: #fff;
+  }
+  
+  header {
+    font-family: 'Love Ya Like A Sister', cursive;
+  }
+  
+  header,
+  footer {
+    height: 80px;
+    width: 100%;
+  }
+  
+  main {
+    height: 300px;
+    width: 100%;
+  }
+  
+  header,
+  footer,
+  main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+  }
+  
+  .flex-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+      justify-content: space-between;
+  }
+  
+  .flex-items {
+    color: #fff;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    width: 30%;
+    height: 200px;
+    font-family: 'Cedarville Cursive', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#div-1 {
+    border-right: 3px white solid;
 }
 
-body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
-  font-size: 1.25em;
-  height: 100%;
-}
-
-.wrapper {
-  /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
-  display: flex;
-  justify-content: space-between;
-}
-
-.div-1, .div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: salmon;
-  line-height: 1.5em;
-  font-size: 1em;
-  height: auto;
-  display: flex;
-  width: 31%;
-  justify-content: center;
-  align-items: center;
-}
-
-.div-1 {
-    border-right: 3px pink solid;
-
-}
-
-.div-2 {
-    border-right: 3px pink solid;
+#div-2 {
+    border-right: 3px white solid;
 }
 
 
