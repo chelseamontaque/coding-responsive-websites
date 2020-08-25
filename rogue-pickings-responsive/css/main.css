@@ -52,6 +52,8 @@ header {
 	justify-content: center;
 	align-items: center;
 	border-bottom: 3px solid #77a466;
+	text-align: center;
+	width: 100%;
 	margin: 0 auto;
 	flex-flow: row wrap;
 	
@@ -59,53 +61,50 @@ header {
 
 header h1 {
 	margin: 0;
-	padding: 38px 0;
+	padding: 38px 20px 20px 20px;
+	border-bottom: 3px solid #77a466;
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 header h1 span {
 	color: #77a466;
 }
 
 header nav {
-	padding: 46px 0;
+	padding: 20px 0;
+	width: 100%;
 }
 header nav ul {
 	margin: 0;
-	padding: 0;
+	padding: 0;	
 }
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 0.875em;
-	padding: 0 10px;
-	display: inline;
+	padding: 10px 0;
+	list-style: none;
 }
-header nav ul li a{
+header nav ul li a	{
 	text-decoration: none;
 	color:#77a466;
-}
+	}
 
-/*The widths are in a percentage!*/
+	/*The widths are in a percentage!*/
 .top-section,
 .bottom-section {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-flow: row wrap;
-	margin: 0 auto;
-	
+	flex-flow: row wrap;	
 }
 
-.main-image {
-	height: auto;
-}
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
 }
 
-.main-title {
-	height: auto;
-}
 .main-title h3 {
 	text-align: left;
 	padding: 5px 0;
@@ -120,23 +119,8 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
-	height: auto;
+	width: 100%;
 	border-top: 1px solid #eee;
-}
-
-.section-one h4 {
-	padding: 10px 0;
-}
-
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
-
-.section-two h4,
-.section-three h4 {
-	padding: 10px 30px;
 }
 
 .menu {
@@ -151,12 +135,12 @@ header nav ul li a{
 .reviews {
 	color: #333;
 	font-size: 1em;
-	line-height: 21px;
+	line-height: 1.3125;
 }
 
 .address {
 	font-size: 1em;
-	line-height: 24px;
+	line-height: 1.5;
 }
 
 /*The widths are in a percentage!*/
@@ -165,9 +149,9 @@ footer {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
-	border-top: 3px solid #eee;
 	margin: 0 auto;
 	text-align: center;
+	width: 100%;
 }
 footer span {
 	font-family: 'Galada', cursive;
@@ -181,7 +165,7 @@ footer span {
 	.bottom-section {
 		justify-content: space-between;
 		align-items: flex-start;
-		border-top: 1 px solid #eee;
+		border-top: 1px solid #eee;
 	}
 
 	.section-one,
